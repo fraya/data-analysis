@@ -12,7 +12,7 @@
 # serve to show the default.
 
 import sys, os
-import sphinxcontrib.dylan.themes as dylan_themes
+import dylan.themes as dylan_themes
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -26,7 +26,7 @@ import sphinxcontrib.dylan.themes as dylan_themes
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinxcontrib.dylan.domain', 'sphinx.ext.mathjax']
+extensions = ['dylan.domain', 'sphinx.ext.mathjax']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
